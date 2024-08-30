@@ -5,11 +5,11 @@ using namespace std;
 int main ()
 {
   int input = 0;
-
   cin >> input;
-  cout << "you entered: " << input << endl;
-  input = input + 5;
-  cout << "output: " << input << endl;
 
+ if (input == 3)
+   cout << "You entered a 3." << endl;
+ 
+  cout << input << endl;
   return 0;
 }
