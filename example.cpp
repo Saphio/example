@@ -8,7 +8,10 @@ int main ()
   cin >> input;
 
  if (input == 3)
-   cout << "You entered a 3." << endl;
+   {
+     cout << "You entered a 3." << endl;
+     input++;
+   }
  
   cout << input << endl;
   return 0;
